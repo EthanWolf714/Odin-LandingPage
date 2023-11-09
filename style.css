@@ -1,23 +1,38 @@
 header {
     background-color: #1f2937 ;
-    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 
 }
-header.logo{
+header #logo{
     font-size: 24px;
+    color: white;
 }
 
-#heroContatiner{
-    background-color: #1f2937 ;
-    color: white;
+#heroContainer{
+    background-color: #1f2937;
     border: 1px solid red;
-    height: 30vh  ;
+    height: 30vh;
     display: flex;
+    align-items: center;
     
+}
+
+#hdrContent, #imgDiv {
+    color: white;
+    flex: 1;
+    padding: 10px;
+    margin-left: 15%;
+}
+
+#heroContainer #imgDiv{
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+    
+
 }
 ul {
     display: flex;
