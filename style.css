@@ -1,12 +1,46 @@
-#header {
+header {
     background-color: #1f2937 ;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 
 }
-#footer{
+header.logo{
+    font-size: 24px;
+}
+
+#heroContatiner{
     background-color: #1f2937 ;
     color: white;
-    font-size: medium;
+    border: 1px solid red;
+    height: 30vh  ;
+    display: flex;
+    
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer{
+    background-color: #1f2937 ;
+    color: white;
     text-align: center;
+    margin-top: auto;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
