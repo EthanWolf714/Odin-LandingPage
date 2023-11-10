@@ -1,61 +1,89 @@
 header {
     background-color: #1f2937 ;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 1em 13em;
 
 
 }
-header #logo{
+ #logo{
     font-size: 24px;
     color: white;
 }
 
-#heroContainer{
-    background-color: #1f2937;
-    border: 1px solid red;
-    height: 30vh;
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap:1.5em;
+}
+
+.scnd, 
+a:link{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.heroContainer{
+    padding:7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    
+}
+
+.heroContainer .left{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.heroContainer .right{
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.hero{
+   color: #F9FAF8;
+   font-size: 48px;
+}
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.heroContainer button{
+    border: none;
+}
+.image{
+    background-color: gray;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+    height: 215px;
 }
 
-#hdrContent, #imgDiv {
-    color: white;
-    flex: 1;
-    padding: 10px;
-    margin-left: 15%;
-}
-
-#heroContainer #imgDiv{
-    border: 1px solid red;
-    width: 30px;
-    height: 30px;
-    
-
-}
-ul {
-    display: flex;
-    list-style-type: none;
-}
-
-footer{
+footer {
     background-color: #1f2937 ;
     color: white;
-    text-align: center;
-    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2em 0;
     
 }
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
