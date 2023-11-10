@@ -60,7 +60,7 @@ button {
 .heroContainer button{
     border: none;
 }
-.image{
+.img{
     background-color: gray;
     display: flex;
     align-items: center;
